@@ -1,0 +1,70 @@
+A)
+
+boolean x = true;
+boolean y = false;
+boolean z = true;
+
+boolean w = !(x || y) & z | (x && !y) ^ !z;
+
+First we look at the expressions inside the parentheses since they have the highest precedence.
+
+(x || y) : x and y are connected with the logical OR operator. If any of the two operands 
+is true, the condition becomes true. So (x || y) is true as x is true.
+
+(x && !y) : x and !y are connected with the logical AND operator. The condition becomes true if both operands are true. 
+Since the logical NOT !, which reverses the logical state of its operand, has a higher precedence as && both operands 
+are true and (x && !y) is true.
+
+Now we look at the !(x || y) since the ! now has the highest precedence. (x || y) is true, so 
+!(x || y) is false.
+z is true, so !z is false.
+
+The bitwise AND operator & now has the next highest precedence. !(x || y) is false and z is true, so !(x || y) & z is false.
+
+The bitwise XOR operator ^ now has the highest precedence. (x && !y) is true and !z is false, so 
+(x && !y) ^ !z is true. 
+
+the bitwise OR operator | now has the highest precedence. !(x || y) & z is false and (x && !y) ^ !z is true so
+!(x || y) & z | (x && !y) ^ !z is true.
+
+boolean w = true;
+
+
+
+B)
+
+The value of the variable b is false because two floats are being compared. Floating types don't represent numbers exactly so there are
+gaps in the range of floating point numbers. This results in approximation errors in many cases.
+In our example:
+
+f3= 1000.0
+f4= 1000.0001
+
+So f3 and f4 aren't equal and shouldn't be compared with equality ==, but rather compare them for equality within a range. 
+Meaning that you compare the difference between two floating point numbers is smaller than a specific value.
+For example in our case:
+
+Math.abs(f3-f4) < 1.0E-3
+
+	float f1 = 1000.0F;
+        float f2 = 0.00003F;
+        float f3 = f1 + f2 + f2 + f2 + f2;
+        float f4 = f2 + f2 + f2 + f2 + f1;
+        
+        boolean c = Math.abs(f3-f4) < 1.0E-3;
+
+        System.out.println(c);
+
+In this case c would be true. 
+
+
+
+C)
+
+The result of arithmetic operations in java with operands of the types byte and short are of the type int.
+So when trying to declare: byte c = a + b; the types are incompatible. A correct version would be:
+        
+	byte a = 23;
+        byte b = 42;
+        int c = a + b;
+
