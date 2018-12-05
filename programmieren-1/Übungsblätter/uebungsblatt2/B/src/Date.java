@@ -1,32 +1,31 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Date {
-
-   private static Calendar calendar = new GregorianCalendar();
-
-    private int year       = calendar.get(Calendar.YEAR);
-    private int month      = calendar.get(Calendar.MONTH);
+    public class Date {
+    private Calendar calendar = new GregorianCalendar();
+    private int year = calendar.get(Calendar.YEAR);
+    private int month = calendar.get(Calendar.MONTH);
     private int dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
+    private String date = Integer.toString(dayOfMonth) + "." + Integer.toString(month) +"." + Integer.toString(year);
 
-//    private String year1= Integer.toString( year);
-//    private String month1= Integer.toString( month);
-//    private String dayofmonth1= Integer.toString( dayOfMonth);
-    private Date(int dayOfMonth, int month, int year){
-        this.dayOfMonth = dayOfMonth;
-        this.month = month;
-        this.year = year;
+    //Static Class Reference
+    private static Date obj = null;
 
+    private Date() {
+        print();
     }
 
-    private String date = dayofmonth1 + "." + month1 +"." + year1;
 
-    public void printDate(){
+    public static Date createDate() {
+//        This will make sure only one object can be created
+        if (obj == null) {
+            obj = new Date();
+        }
+        return obj;
+    }
+
+    private void print() {
         System.out.println(date);
     }
 
-
-    public String getDate() {
-        return date;
-    }
 }

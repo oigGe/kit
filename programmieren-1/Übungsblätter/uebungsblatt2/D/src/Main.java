@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Date today = Date.createDate();
+       Movie kkk = new Movie("mmm",111,11,11,2018,"horror");
+
     }
 }
