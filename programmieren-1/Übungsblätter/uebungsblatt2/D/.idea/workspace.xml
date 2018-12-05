@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aae47356-3d55-401f-8be4-11a74ad5e447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../B/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C/src/TruncatedCone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/Adress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/Birthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/FilmStudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D2/src/ReleaseDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abgabe/A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abgabe/A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../B/src/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../B/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D2/src/MovieDataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D2/src/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D2/src/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D2/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D2/src/Movie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +25,9 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Genre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="1395">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -105,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/ReleaseDate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -134,9 +123,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="169" />
-    <option name="width" value="2483" />
+    <option name="y" value="161" />
+    <option name="width" value="1920" />
     <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -147,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +151,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,10 +188,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="169" width="2483" height="1059" extended-state="0" />
+    <frame x="0" y="161" width="1920" height="1059" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,13 +229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MovieDataBank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -255,17 +236,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReleaseDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Genre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
