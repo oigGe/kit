@@ -3,7 +3,6 @@ public class Main {
         LinkedList l = new LinkedList();
 
 
-
         ListElement one = new ListElement(1);
         ListElement two = new ListElement(2);
         ListElement three = new ListElement(3);
@@ -12,15 +11,30 @@ public class Main {
         ListElement six = new ListElement(6);
 
 
+//        l.add(four);
+//        l.add(three);
+//        l.add(two);
+//        l.add(five);
+//        l.add(one);
+//        l.add(six);
 
-        l.add(three);
         l.add(two);
-        l.add(one);
+        l.add(five);
+        l.add(three);
+
+
+//        l.add(four);
+//        l.add(five);
+//        l.add(three);
+//        l.add(six);
+//        l.add(two);
+//        l.add(four);
+
 
         LinkedList.Iterator it = l.iterator();
 
         System.out.println("Iterator: ");
-        while (it.hasNext()){
+        while (it.hasNext()) {
             ListElement v = it.next();
             System.out.println(v.getElement());
         }

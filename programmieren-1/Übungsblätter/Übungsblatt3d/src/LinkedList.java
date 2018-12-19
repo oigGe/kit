@@ -43,8 +43,6 @@ public class LinkedList {
     private static ListCell lastListCell;
     private static int min;
     private static int max;
-//    int getMax = 0;
-//    int getMin = 999;
 
     public LinkedList() {
         this.head = null;
@@ -68,11 +66,6 @@ public class LinkedList {
     }
 
     public void addLast(ListElement element) {
-//        if (this.head == null) {
-//            this.head = new ListCell(element, null, null);
-//            System.out.println("this shouldnt happen");
-//            return;
-//        }
         ListCell c = this.head;
         while (c.next != null) {
             c = c.next;
@@ -84,10 +77,14 @@ public class LinkedList {
     }
 
     public void addBetween(ListElement element) {
-        ListCell tempNext = this.head.getNext();
-        ListCell tempPrev = this.head.getPrev();
-        this.head.setNext(new ListCell(element, tempPrev, tempNext));
-        this.head = this.head.getNext();
+        ListCell tempPrev = this.head;
+        ListCell tempNext = this.head.next;
+        ListCell newHead = new ListCell(element,this.head.getPrev(),tempNext);
+//        this.head = newHead;
+        tempPrev.setNext(newHead);
+        tempNext.setPrev(newHead);
+
+
         System.out.println("addBetween called");
 
     }
@@ -100,22 +97,21 @@ public class LinkedList {
         if (this.head == null) {
             max = newValue;
             min = newValue;
-//            getMin = min;
-//            getMax = max;
+
             System.out.println("addVeryFirst expected");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
             addVeryFirst(e);
-        } else if (e.getElement() <= min) {
+        } else if (newValue <= min) {
             min = newValue;
-//            getMin = min;
+
             System.out.println("add first expected because input smaller than min");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
             addFirst(e);
         } else if (newValue > max) {
             max = newValue;
-//            getMax = max;
+
             System.out.println("addLast expected");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
@@ -124,55 +120,21 @@ public class LinkedList {
             System.out.println("add between expected because input inbetween min and max");
             int thisValue = this.head.element.getElement();
             ListCell c = this.head;
-            while (newValue <= thisValue) {
-                c = c.next;
+            System.out.println("newValue: " + newValue + ", thisValue: " + thisValue);
+            while (newValue > thisValue) {
+                System.out.println("while loop active");
+                System.out.println("searching value: " + newValue + ", current value: " + thisValue);
+                this.head = this.head.next;
+                thisValue = this.head.element.getElement();
+                System.out.println("upcoming Value: " + thisValue);
             }
+            System.out.println("While loop finished");
+
+            this.head = this.head.prev;
+
             addBetween(e);
         }
     }
-
-
-//    public void insert(ListElement element, LinkedList l) {
-//
-//        int newValue = element.getElement();
-//
-//
-//        //1.Fall: Die Liste ist leer
-//        if (this.head == null) {
-//            this.head = new ListCell(element, null, null);
-////            firstListCell = this.head;
-//            return;
-//        }
-////Die Liste ist nicht leer. Wir gehen solange durch, bis unser input wert groesser ist, als die vorherigen listenwerte.
-//        else {
-////            int elementValue = this.head.element.getElement();
-////            while (newValue <= elementValue && this.head.next != null) {
-////                elementValue = this.head.element.getElement();
-////                this.head = this.head.next;
-//////          Wir sind nun an dem Punkt an dem die folgenden Listeneinträge grösser sind als unser inputwert.
-////            }
-//
-//            ListCell c = this.head;
-//            while (c.next != null) {
-//                c = c.next;
-//            }
-//            c.next = new ListCell(element, null, null);
-//        }
-//
-////        //2.Fall Wir hängen einen Knoten hinten an
-////        if (this.head.next == null) {
-////            this.head.setNext(new ListCell(element, null));
-//////                lastListCell = this.head.getNext();
-//////                this.head = lastListCell;
-////        } else  {
-////            //3.Fall Wir fügen eine Knoten zwischen zwei existierenden Knoten ein.
-////            ListCell tempNext = this.head.getNext();
-////            this.head.setNext(new ListCell(element, tempNext));
-////            this.head = this.head.getNext();
-////
-////        }
-//    }
-
 
     public class Iterator {
         private ListCell cursor;
