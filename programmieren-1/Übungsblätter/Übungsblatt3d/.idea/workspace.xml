@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c011db-3f41-4713-be42-2163df04456a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/B/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/D3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/MovieDataBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/D4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3/src/ListCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3/src/edu/kit/informatik/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/src/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/src/ListCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3b/Übungsblatt3b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/src/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Übungsblatt3c/Übungsblatt3c.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/out/production/A/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/out/production/A/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/Abgabe/A/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/B/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/B/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/B/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/B/out/production/B/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/B/out/production/B/Date.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/B/out/production/B/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/B/out/production/B/Main.class" afterDir="false" />
@@ -60,6 +21,34 @@
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D2/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D2/src/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D2/src/MovieDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D2/src/MovieDataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D3/src/MovieDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D3/src/MovieDataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uebungsblatt2/D4/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3/src/ListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3/src/ListCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3/src/edu/kit/informatik/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3/src/edu/kit/informatik/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3c/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3c/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übungsblatt3c/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Übungsblatt3c/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt3d/LinkedList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt3d/LinkedList$Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt3d/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt3d/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt3d/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt3d/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,56 +67,73 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="true" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Main.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="240">
+                    <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1238012158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3192" />
+          <entry key="java" value="3628" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3192" />
+          <entry key="JAVA" value="3628" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="420">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding>
-                <element signature="method#getNext#0;class#ListCell#0;class#LinkedList#0" />
-                <element signature="method#setNext#0;class#ListCell#0;class#LinkedList#0" />
-              </folding>
+            <state relative-caret-position="438">
+              <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -136,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/ListElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -157,8 +163,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ListElement.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -176,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,10 +199,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545175358022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545204315238" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -244,36 +250,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="2493" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10788721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10870454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3299611" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" auto_hide="true" x="825" y="486" width="877" height="833" id="Run" order="2" type="FLOATING" visible="true" weight="0.3299611" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="1090" y="137" width="830" height="1076" id="Run" order="2" type="FLOATING" visible="true" weight="0.3299611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299611" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -283,25 +288,21 @@
     <entry file="file://$PROJECT_DIR$/src/ListElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="method#getNext#0;class#ListCell#0;class#LinkedList#0" />
-            <element signature="method#setNext#0;class#ListCell#0;class#LinkedList#0" />
-          </folding>
+        <state relative-caret-position="438">
+          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="420">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

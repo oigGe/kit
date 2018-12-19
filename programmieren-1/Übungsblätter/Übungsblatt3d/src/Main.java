@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
 
+
+
         ListElement one = new ListElement(1);
         ListElement two = new ListElement(2);
         ListElement three = new ListElement(3);
@@ -11,17 +13,13 @@ public class Main {
 
 
 
-        LinkedList.Iterator it = l.iterator();
-
-        l.add(six);
         l.add(three);
-        System.out.println(it.hasNext());
-        l.add(five);
+        l.add(two);
         l.add(one);
 
-//        System.out.println(it.hasNext());
-//        System.out.println("lala" +it.next().getElement());
+        LinkedList.Iterator it = l.iterator();
 
+        System.out.println("Iterator: ");
         while (it.hasNext()){
             ListElement v = it.next();
             System.out.println(v.getElement());

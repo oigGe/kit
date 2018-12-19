@@ -43,28 +43,36 @@ public class LinkedList {
     private static ListCell lastListCell;
     private static int min;
     private static int max;
-    int getMax = 0;
-    int getMin = 999;
+//    int getMax = 0;
+//    int getMin = 999;
 
     public LinkedList() {
         this.head = null;
     }
 
 
-    public void addFirst(ListElement element) {
+    public void addVeryFirst(ListElement element) {
         ListCell newHead = new ListCell(element, null, null);
         this.head = newHead;
-        firstListCell = this.head;
+        firstListCell = newHead;
+
+        System.out.println("addVeryFirst called");
+    }
+
+    public void addFirst(ListElement element) {
+        ListCell newHead = new ListCell(element, null, this.head);
+        this.head = newHead;
+        firstListCell = newHead;
 
         System.out.println("addFirst called");
     }
 
     public void addLast(ListElement element) {
-        if (this.head == null) {
-            this.head = new ListCell(element, null, null);
-            System.out.println("this shouldnt happen");
-            return;
-        }
+//        if (this.head == null) {
+//            this.head = new ListCell(element, null, null);
+//            System.out.println("this shouldnt happen");
+//            return;
+//        }
         ListCell c = this.head;
         while (c.next != null) {
             c = c.next;
@@ -92,22 +100,22 @@ public class LinkedList {
         if (this.head == null) {
             max = newValue;
             min = newValue;
-            getMin = min;
-            getMax = max;
-            System.out.println("addFirst expected");
+//            getMin = min;
+//            getMax = max;
+            System.out.println("addVeryFirst expected");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
-            addFirst(e);
+            addVeryFirst(e);
         } else if (e.getElement() <= min) {
             min = newValue;
-            getMin = min;
+//            getMin = min;
             System.out.println("add first expected because input smaller than min");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
             addFirst(e);
         } else if (newValue > max) {
             max = newValue;
-            getMax = max;
+//            getMax = max;
             System.out.println("addLast expected");
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
