@@ -1,18 +1,20 @@
 public class LinkedList {
     private class ListCell {
-        public int element;
+        public ListElement element;
         public ListCell next;
+        private ListCell firstCell;
 
-        public ListCell(int element, ListCell next) {
+
+        public ListCell(ListElement element, ListCell next) {
             this.element = element;
             this.next = next;
         }
 
-        public int getElement() {
+        public ListElement getElement() {
             return element;
         }
 
-        public void setElement(int element) {
+        public void setElement(ListElement element) {
             this.element = element;
         }
 
@@ -35,8 +37,8 @@ public class LinkedList {
         this.head = null;
     }
 
-    public void add(int e) {
-        int newValue = e;
+    public void add(ListElement e) {
+        int newValue = e.getValue();
         System.out.println("Input value: " + newValue);
 
         if (this.head == null) {
@@ -47,6 +49,7 @@ public class LinkedList {
             System.out.println("Max: " + max);
             System.out.println("Min: " + min);
             addVeryFirst(e);
+
         } else if (newValue <= min) {
             min = newValue;
 
@@ -64,7 +67,7 @@ public class LinkedList {
         } else {
             System.out.println("add between expected because input inbetween min and max");
 
-            int thisValue = this.head.getElement();
+            int thisValue = this.head.element.getValue();
 
             System.out.println("newValue: " + newValue + ", thisValue: " + thisValue);
             ListCell temp = this.head;
@@ -74,7 +77,7 @@ public class LinkedList {
                 System.out.println("searching value: " + newValue + ", current value: " + thisValue);
                 loopTemp = this.head;
                 this.head = this.head.next;
-                thisValue = this.head.getElement();
+                thisValue = this.head.element.getValue();
                 System.out.println("upcoming Value: " + thisValue);
             }
             System.out.println("While loop finished");
@@ -86,23 +89,29 @@ public class LinkedList {
 
 
     }
-    public void addVeryFirst(int element) {
+    public void addVeryFirst(ListElement element) {
         ListCell newHead = new ListCell(element, null);
+
         this.head = newHead;
+        firstListCell = newHead;
 //        firstListCell = newHead;
+        giveIndex();
 
         System.out.println("addVeryFirst called");
     }
 
-    public void addFirst(int element) {
+    public void addFirst(ListElement element) {
         ListCell newHead = new ListCell(element, this.head);
-        this.head = newHead;
-//        firstListCell = newHead;
 
+
+        this.head = newHead;
+        firstListCell = newHead;
+
+        giveIndex();
         System.out.println("addFirst called");
     }
 
-    public void addLast(int element) {
+    public void addLast(ListElement element) {
         ListCell c = this.head;
         while (c.next != null) {
             c = c.next;
@@ -111,16 +120,27 @@ public class LinkedList {
 //        lastListCell = this.head;
 
         System.out.println("addLast called");
+        giveIndex();
     }
 
-    public void addBetween(int element) {
+    public void addBetween(ListElement element) {
        ListCell temp = new ListCell(element,this.head.getNext());
         this.head.setNext(temp);
 //        this.head = temp;
-
+        giveIndex();
 
         System.out.println("addBetween called");
 
+    }
+
+    public void giveIndex(){
+        ListCell current = firstListCell;
+        int count = 0;
+        while (current != null){
+            current.element.setIndex(count);
+            count++;
+            current = current.next;
+        }
     }
 
     public class Iterator {
@@ -134,8 +154,8 @@ public class LinkedList {
             return (this.cursor != null);
         }
 
-        public int next() {
-            int currentContent = this.cursor.getElement();
+        public ListElement next() {
+            ListElement currentContent = this.cursor.getElement();
             this.cursor = this.cursor.next;
             return currentContent;
         }
@@ -145,4 +165,8 @@ public class LinkedList {
     public Iterator iterator() {
         return new Iterator(this.head);
     }
+
+
+
+
 }
