@@ -1,3 +1,5 @@
+import edu.kit.informatik.Terminal;
+
 public class LinkedList {
     private class ListCell {
         public ListElement element;
@@ -39,48 +41,34 @@ public class LinkedList {
 
     public void add(ListElement e) {
         int newValue = e.getValue();
-        System.out.println("Input value: " + newValue);
+
 
         if (this.head == null) {
+
             max = newValue;
             min = newValue;
-
-            System.out.println("addVeryFirst expected");
-            System.out.println("Max: " + max);
-            System.out.println("Min: " + min);
             addVeryFirst(e);
 
         } else if (newValue <= min) {
-            min = newValue;
 
-            System.out.println("add first expected because input smaller than min");
-            System.out.println("Max: " + max);
-            System.out.println("Min: " + min);
+            min = newValue;
             addFirst(e);
         } else if (newValue >= max) {
-            max = newValue;
 
-            System.out.println("addLast expected");
-            System.out.println("Max: " + max);
-            System.out.println("Min: " + min);
+            max = newValue;
             addLast(e);
         } else {
-            System.out.println("add between expected because input inbetween min and max");
 
             int thisValue = this.head.element.getValue();
-
-            System.out.println("newValue: " + newValue + ", thisValue: " + thisValue);
             ListCell temp = this.head;
-            ListCell loopTemp =this.head;
+            ListCell loopTemp = this.head;
             while (newValue > thisValue) {
-                System.out.println("while loop active");
-                System.out.println("searching value: " + newValue + ", current value: " + thisValue);
+
                 loopTemp = this.head;
                 this.head = this.head.next;
                 thisValue = this.head.element.getValue();
-                System.out.println("upcoming Value: " + thisValue);
+
             }
-            System.out.println("While loop finished");
 
             this.head = loopTemp;
             addBetween(e);
@@ -89,58 +77,101 @@ public class LinkedList {
 
 
     }
-    public void addVeryFirst(ListElement element) {
-        ListCell newHead = new ListCell(element, null);
 
+    public void addVeryFirst(ListElement element) {
+
+        ListCell newHead = new ListCell(element, null);
         this.head = newHead;
         firstListCell = newHead;
-//        firstListCell = newHead;
+        lastListCell = newHead;
         giveIndex();
 
-        System.out.println("addVeryFirst called");
+
     }
 
     public void addFirst(ListElement element) {
+
         ListCell newHead = new ListCell(element, this.head);
-
-
         this.head = newHead;
         firstListCell = newHead;
-
         giveIndex();
-        System.out.println("addFirst called");
     }
 
     public void addLast(ListElement element) {
+
         ListCell c = this.head;
+        lastListCell = c;
         while (c.next != null) {
             c = c.next;
         }
-        c.next = new ListCell(element,  null);
-//        lastListCell = this.head;
-
-        System.out.println("addLast called");
+        c.next = new ListCell(element, null);
         giveIndex();
+
     }
 
     public void addBetween(ListElement element) {
-       ListCell temp = new ListCell(element,this.head.getNext());
+        ListCell temp = new ListCell(element, this.head.getNext());
         this.head.setNext(temp);
-//        this.head = temp;
         giveIndex();
 
-        System.out.println("addBetween called");
 
     }
 
-    public void giveIndex(){
+    public void giveSize(LinkedList l) {
+        LinkedList.Iterator it = l.iterator();
+        int size = 0;
+        while (it.hasNext()) {
+            size += 1;
+            it.next();
+        }
+        Terminal.printLine(size);
+    }
+
+    public void giveIndex() {
         ListCell current = firstListCell;
         int count = 0;
-        while (current != null){
+        while (current != null) {
             current.element.setIndex(count);
             count++;
             current = current.next;
         }
+    }
+
+    public void print(LinkedList l) {
+        LinkedList.Iterator it = l.iterator();
+
+        String list = "";
+        while (it.hasNext()) {
+            list += it.next().getValue();
+            if (it.hasNext()) {
+                list += ",";
+
+            }
+        }
+        Terminal.printLine("[" + list + "]");
+    }
+
+    public void isEmpty(LinkedList l) {
+        LinkedList.Iterator it = l.iterator();
+        boolean empty = true;
+        if (it.hasNext()) {
+            empty = false;
+        }
+        Terminal.printLine(empty);
+    }
+
+    public void clear() {
+        this.head = null;
+    }
+
+    public void getElementAtIndex(LinkedList l, int whichIndex) {
+        LinkedList.Iterator it = l.iterator();
+
+        while (it.cursor.getElement().getIndex() < whichIndex) {
+            it.next();
+        }
+        Terminal.printLine(it.cursor.getElement().getValue());
+
     }
 
     public class Iterator {
@@ -165,8 +196,6 @@ public class LinkedList {
     public Iterator iterator() {
         return new Iterator(this.head);
     }
-
-
 
 
 }
