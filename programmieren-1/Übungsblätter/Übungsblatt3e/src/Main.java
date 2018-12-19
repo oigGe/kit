@@ -1,28 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
-        l.add(1);
-        l.add(1);
-        l.add(5);
-        l.add(4);
-        l.add(-2);
-        l.add(10);
-        l.add(10);
-        l.add(-10);
-        l.add(-10);
-        l.add(-10);
-        l.add(-10);
-        l.add(-1);
-        l.add(10);
-        l.add(-100);
-        l.add(4);
-        l.add(100);
-        l.add(-1);
-        l.add(100);
-        l.add(30);
-        l.add(99);
-        l.add(-100);
-        l.add(3);
+        for (int i = 0; i < 1000; i++){
+            l.add((int)(Math.random()*-1000)+(int)(Math.random()*1000));
+        }
+
 
 
 

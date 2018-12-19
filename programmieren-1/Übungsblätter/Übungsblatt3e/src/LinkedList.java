@@ -68,16 +68,18 @@ public class LinkedList {
 
             System.out.println("newValue: " + newValue + ", thisValue: " + thisValue);
             ListCell temp = this.head;
+            ListCell loopTemp =this.head;
             while (newValue > thisValue) {
                 System.out.println("while loop active");
                 System.out.println("searching value: " + newValue + ", current value: " + thisValue);
-//                temp = this.head;
+                loopTemp = this.head;
                 this.head = this.head.next;
                 thisValue = this.head.getElement();
                 System.out.println("upcoming Value: " + thisValue);
             }
             System.out.println("While loop finished");
 
+            this.head = loopTemp;
             addBetween(e);
             this.head = temp;
         }
