@@ -19,40 +19,38 @@ public class Main {
                     l.add(new ListElement(inputValue));
                 }
 
-                if (part1.equals("get")){
-                    l.getElementAtIndex(l,inputValue);
+                if (part1.equals("get")) {
+                    l.getElementAtIndex(l, inputValue);
+                }
+                if (part1.equals("indexOf")) {
+                    l.giveIndexOf(l, inputValue);
+                }
+
+                if (part1.equals("lastIndexOf")) {
+                    l.giveLastIndexOf(l, inputValue);
+                }
+
+                if (part1.equals("remove")) {
+                    l.remove(inputValue);
+                }
+
+                if (part1.equals("contains")) {
+                    l.contains(inputValue);
                 }
 
             } else {
                 if (input.equals("print")) {
                     l.print(l);
-                }
-                else if (input.equals("size")){
-                  l.giveSize(l);
-                }
-                else if (input.equals("isEmpty")){
+                } else if (input.equals("size")) {
+                    l.giveSize(l);
+                } else if (input.equals("isEmpty")) {
                     l.isEmpty(l);
-                }
-                else if(input.equals("clear")){
+                } else if (input.equals("clear")) {
                     l.clear();
                 }
             }
 
-
-            //        for (int i = 0; i < 1000; i++){
-//            l.add(new ListElement((int)(Math.random()*100)));
-//        }
-//
-//        LinkedList.Iterator it = l.iterator();
-//
-//        Terminal.printLine("Iterator: ");
-//        while (it.hasNext()) {
-//             ListElement v = it.next();
-//            System.out.println(v.getIndex() + ": " + v.getValue());
-
-
         }
-
 
     }
 }
