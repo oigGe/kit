@@ -3,24 +3,57 @@ package georggross;
 import edu.kit.informatik.Terminal;
 
 public class Main {
+
+    private static boolean isRunning = true;
+
     public static void main(String[] args) {
 
-        App app = new App(5,true);
-        int[] reihenfolgeA = {1, 2, 3, 4, 5, 6};
-        int[] reihenfolgeB = {2, 3, 1, 4, 6, 5};
-        app.start(reihenfolgeA, reihenfolgeB);
-        app.getBoard().printBoard();
-        app.getBoard().getPosition(0, 0).getStone().move(app.getBoard(), 1, 1);
-        app.getBoard().getPosition(1, 1).getStone().move(app.getBoard(), 2, 2);
-        app.getBoard().getPosition(2, 2).getStone().move(app.getBoard(), 3, 3);
-        app.getBoard().getPosition(3, 3).getStone().move(app.getBoard(), 3, 4 );
-        app.getBoard().getPosition(3, 4).getStone().move(app.getBoard(), 3, 5 );
-        app.getBoard().getPosition(3, 5).getStone().move(app.getBoard(), 3, 6 );
+        if (isCorrectCommandlineArgument(args)) {
+            App app = new App(Integer.parseInt(args[1]), isTorus(args));
 
-Terminal.printLine("__________________________________________________________");
-        app.getBoard().printBoard();
-        Terminal.printLine(app.getPlayerA().hasWon(app.getBoard()));
+            while (isRunning) {
+                String input = Terminal.readLine();
+
+
+            }
+        } else {
+            Terminal.printError("invalid commandline argument");
+            isRunning = false;
+        }
+
 
     }
 
+    private static void playerTurn(Player player) {
+
+        String input = Terminal.readLine();
+        rollPhase(input);
+        movePhase(input);
+
+    }
+
+    private static boolean rollPhase(String input){
+        if (input)
+    }
+
+    private boolean correctInput(String input){
+        
+    }
+
+    private static boolean isCorrectCommandlineArgument(String[] args) {
+        boolean firstArg = args[0].equals("standard") || args[0].equals("torus");
+        boolean secondArg = args[1].equals("5") || args[1].equals("7");
+        boolean correctSize = args.length == 2;
+        if (firstArg && secondArg && correctSize) {
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean isTorus(String[] args) {
+        if (args[0].equals("standard")) {
+            return true;
+        }
+        return false;
+    }
 }
