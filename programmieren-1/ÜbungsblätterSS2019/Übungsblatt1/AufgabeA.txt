@@ -1,0 +1,57 @@
+Objekt und Klasse:
+Klassen sind fundamental wichtig für objektorientierte Programmiersprachen. 
+Eine Klasse beschreibt einen neuen Datentyp, 
+enthält Methoden und Attribute ihrer jeweiligen Objekte und ist somit 
+eine Art Blaupause für diese.
+Objekte einer Klasse sind deren Instanzen und werden im Allgemeinen mit 
+dem new-Operator während der Laufzeit erzeugt.
+
+
+Unveränderliches Objekt:
+Ein unveränderliches Objekt ist ein Objekt, dessen Zustand unveränderbar ist. 
+Auf die Felder eines unveränderlichen Objekts kann nur lesend zugegriffen werden.
+Der Datentyp String setzt dieses Konzept um, da es eine unveränderliche 
+Kette an Zeichen darstellt.
+
+
+Datenkapselung:
+Befinden sich Methoden und Attribute in derselben Klasse so können alle Methoden 
+dieser Klasse auf diese zugreifen. Um zu verhindern, dass auf diese von außerhalb 
+direkt zugegriffen werden kann, bzw. den Zugriff zu modifizieren, verwendet 
+man verschiedene Zugriffsarten:
+
+public:    Man kann auf Methoden und Attribute sowohl von außerhalb als auch 
+       von innerhalb zugreifen, solange die Klasse sichtbar ist.
+
+protected: Man kann auf Methoden und Attribute nur innerhalb und von 
+       Unterklassen aus zugreifen. Dabei können diese auch aus anderen Paketen stammen.
+
+package:   Dies ist die Standartzugriffsart und benötigt keinen Modifizierer. 
+       Die Elemente sind nur innerhalb des jeweiligen Pakets sichtbar.
+
+private:   Die Methoden und Attribute sind ausschliesslich Klassenintern sichtbar.
+
+
+Variable und Typ:
+Eine Variale ist ein festgelegter Bereich im Speicher und beträgt, je nach 
+Inhalt, eine fixe Menge Bytes. Variablen haben immer einen Typ bzw. Datentyp.
+Der Datentyp kann ein einfacher Datentype oder Klasse sein. Welche Operationen 
+für die Varibale zulässig sind, hängt von ihrem Typ ab.
+
+
+Konstruktor:
+Wird ein Objekt mit dem new-Operartor erzeugt, so wird der Konstruktor aufgerufen.
+Ein Konstruktor heißt genauso wie seine Klasse und gibt nichts zurück. Man 
+verwendet ihn um die Attribute des Objekts zu initialisieren und um einen 
+geeigneten Anfangszustand dieser zu gewährleisten. Konstruktoren können 
+überladen werden und jede Klasse kann nicht mehr als einen Konstruktor 
+ohne Parameter haben. Dieser wird vom Compiler automatisch erzeugt, falls es 
+keine anderen Konstruktoren gibt.
+
+
+Utility-Klasse:
+Eine Utility Klasse besitzt ausschliesslich statische Methoden und Konstanten. 
+Ihr Konstruktor ist typischerweise privat. Dies eigent sich dazu, Klassenmethoden 
+zu erstellen, die unmittelbar innerhalb des gesamten Programms verwendet werden 
+können, ohne ein Objekt erzeugen. Dies wird durch den privaten Konstruktor 
+verhindert. Ein Beispiel dafür ist die Math Klasse.

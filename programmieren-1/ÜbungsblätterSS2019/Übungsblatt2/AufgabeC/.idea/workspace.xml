@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18a65c49-b072-4e2a-8ae8-f64f04e4c00c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Interactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übungsblatt1/Aufgabe2/src/Crossroads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übungsblatt1/Aufgabe2/src/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übungsblatt1/Aufgabe2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übungsblatt1/Aufgabe3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Übungsblatt1/Aufgabe3/src/edu/kit/informatik/StringUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeA/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeA/src/georggross/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeA/src/georggross/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeB/src/georggross/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeB/src/georggross/SumCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/georggross/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/georggross/MatrixBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/georggross/MatrixCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AufgabeD/src/georggross/NarcissisticNumberValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/out/production/A/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/out/production/A/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/Abgabe/A/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/out/production/B/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/out/production/B/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/out/production/B/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/out/production/B/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/B/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/out/production/C/TruncatedCone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/out/production/C/TruncatedCone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/src/TruncatedCone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/src/TruncatedCone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/src/TruncatedCone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/C/src/TruncatedCone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/out/production/D2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/out/production/D2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/out/production/D2/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/out/production/D2/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/MovieDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D2/src/MovieDataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/MovieDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D3/src/MovieDataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/uebungsblatt2/D4/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/ListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/ListCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/edu/kit/informatik/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3/src/edu/kit/informatik/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3c/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3d/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3d/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3d/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/LinkedList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/LinkedList$Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/LinkedList$ListCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/out/production/Übungsblatt3e/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt3e/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/AddressBookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/AddressBookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/AdressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/AdressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Contacs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Contacs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt4b/src/addressbook/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5/src/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Interactions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Interactions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/out/production/Übungsblatt5b/Ludo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Interactions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/Ludo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Übungsblätter/Übungsblatt5b/src/ludo/Player.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2013384745">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="6261" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6261" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/georggross/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/MatrixBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/MatrixCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/georggross/MatrrixBuilder.java" />
+        <option value="$PROJECT_DIR$/src/georggross/matrixCalculator.java" />
+        <option value="$PROJECT_DIR$/src/georggross/MatrixContainer.java" />
+        <option value="$PROJECT_DIR$/src/georggross/MatrixBuilder.java" />
+        <option value="$PROJECT_DIR$/src/georggross/MatrixCalculator.java" />
+        <option value="$PROJECT_DIR$/src/georggross/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="2493" />
+    <option name="height" value="1415" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AufgabeC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AufgabeC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AufgabeC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AufgabeC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AufgabeC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AufgabeC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558556993432" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../requiredCheckstyleRules_02.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="georggross.Main" />
+      <module name="AufgabeC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a65c49-b072-4e2a-8ae8-f64f04e4c00c" name="Default Changelist" comment="" />
+      <created>1558483527216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558483527216</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2627" y="25" width="2493" height="1415" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15120555" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.045914397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.18210116" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299611" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/georggross/MatrixCalculator.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/georggross/MatrixContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/MatrixBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/MatrixCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
