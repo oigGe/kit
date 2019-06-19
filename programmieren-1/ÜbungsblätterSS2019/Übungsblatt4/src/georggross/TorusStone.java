@@ -37,17 +37,17 @@ public class TorusStone extends Stone {
 
     @Override
     public boolean isValidMove(Board board, int xPos, int yPos) {
-        xPos = adjustNumber(xPos);
-        yPos = adjustNumber(yPos);
-        return super.isValidMove(board, xPos, yPos);
+        int adjustedXPos = adjustNumber(xPos);
+        int adjustedYPos = adjustNumber(yPos);
+        return super.isValidMove(board, adjustedXPos, adjustedYPos);
     }
 
     @Override
     public boolean move(Board board, int xPos, int yPos) {
-        xPos = adjustNumber(xPos);
-        yPos = adjustNumber(yPos);
-        if (isValidMove(board, xPos, yPos)) {
-            Position newPosition = board.getPosition(xPos, yPos);
+        int adjustedXPos = adjustNumber(xPos);
+        int adjustedYPos = adjustNumber(yPos);
+        if (isValidMove(board, adjustedXPos, adjustedYPos)) {
+            Position newPosition = board.getPosition(adjustedXPos, adjustedYPos);
             if (newPosition.getStone() != null) {
                 beat(newPosition);
             }
@@ -61,12 +61,13 @@ public class TorusStone extends Stone {
     }
 
     private int adjustNumber(int number) {
+        int adjustedNumber = number;
         if (number < 0) {
-            number = (5 + (number % 5)) % 5;
+            adjustedNumber = (5 + (number % 5)) % 5;
         } else {
-            number %= 5;
+            adjustedNumber %= 5;
         }
-        return number;
+        return adjustedNumber;
     }
 }
 

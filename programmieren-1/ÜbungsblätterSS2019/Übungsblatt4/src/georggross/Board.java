@@ -45,6 +45,17 @@ public class Board {
         return board[xPos][yPos];
     }
 
+
+    public void printCell(int xPos, int yPos) {
+        Position thisPosition = board[xPos][yPos];
+        if (thisPosition.getStone() == null) {
+            Terminal.printLine("*");
+        } else {
+            Terminal.printLine("P" + thisPosition.getStone().getPlayer().getId() + ":"
+                    + thisPosition.getStone().getNumber());
+        }
+    }
+
     public void printBoard() {
         String output = "";
         for (int i = 0; i < board.length; i++) {

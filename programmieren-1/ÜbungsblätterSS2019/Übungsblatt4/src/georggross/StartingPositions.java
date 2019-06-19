@@ -3,8 +3,10 @@ package georggross;
 public class StartingPositions {
     private static final String[] START_POS_PLAYER_A_FIVE = {"00", "01", "02", "10", "11", "20"};
     private static final String[] START_POS_PLAYER_B_FIVE = {"24", "33", "34", "42", "43", "44"};
-    private static final String[] START_POS_PLAYER_A_SEVEN = {"00", "01", "02", "03", "10", "11", "12", "20", "21", "30"};
-    private static final String[] START_POS_PLAYER_B_SEVEN = {"36", "45", "46", "54", "55", "56", "63", "64", "65", "66"};
+    private static final String[] START_POS_PLAYER_A_SEVEN = {"00", "01", "02", "03", "10", "11", "12", "20",
+            "21", "30"};
+    private static final String[] START_POS_PLAYER_B_SEVEN = {"36", "45", "46", "54", "55", "56", "63",
+            "64", "65", "66"};
 
 
     public static void setFiveBoard(Board board, Player playerA, Player playerB, int[] playerAPositions,
@@ -60,7 +62,7 @@ public class StartingPositions {
                 Stone newStone;
                 if (!isTorus) {
                     newStone = new Stone(playerBPositions[i], playerB, thisPosition);
-                }else {
+                } else {
                     newStone = new TorusStone(playerBPositions[i], playerB, thisPosition);
                 }
                 board.setStone(newStone);

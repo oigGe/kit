@@ -61,22 +61,19 @@ public class Stone {
             criteria2 = thisX > 0 && thisY <= 0;
             criteria3 = thisX <= 0 && thisY > 0;
         }
-        if (player.getId() == 1) {
-
-            if (criteria1) {
-                Position opt1 = board.getPosition(thisX, thisY + modifier);
-                Position opt2 = board.getPosition(thisX + modifier, thisY);
-                Position opt3 = board.getPosition(thisX + modifier, thisY + modifier);
-                moveOptions.add(opt1);
-                moveOptions.add(opt2);
-                moveOptions.add(opt3);
-            } else if (criteria2) {
-                Position opt1 = board.getPosition(thisX + modifier, thisY);
-                moveOptions.add(opt1);
-            } else if (criteria3) {
-                Position opt1 = board.getPosition(thisX, thisY + modifier);
-                moveOptions.add(opt1);
-            }
+        if (criteria1) {
+            Position opt1 = board.getPosition(thisX, thisY + modifier);
+            Position opt2 = board.getPosition(thisX + modifier, thisY);
+            Position opt3 = board.getPosition(thisX + modifier, thisY + modifier);
+            moveOptions.add(opt1);
+            moveOptions.add(opt2);
+            moveOptions.add(opt3);
+        } else if (criteria2) {
+            Position opt1 = board.getPosition(thisX + modifier, thisY);
+            moveOptions.add(opt1);
+        } else if (criteria3) {
+            Position opt1 = board.getPosition(thisX, thisY + modifier);
+            moveOptions.add(opt1);
         }
         return moveOptions;
     }

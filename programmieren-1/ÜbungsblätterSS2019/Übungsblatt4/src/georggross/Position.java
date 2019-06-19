@@ -13,7 +13,7 @@ public class Position {
         this.name = Integer.toString(xPos) + Integer.toString(yPos);
     }
 
-    public void setStone(Stone stone){
+    public void setStone(Stone stone) {
         this.stone = stone;
     }
 
