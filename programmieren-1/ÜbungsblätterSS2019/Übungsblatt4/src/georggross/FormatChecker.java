@@ -11,8 +11,7 @@ public class FormatChecker {
     private static final String START_REGEX_5 = "start [1-6],[1-6],[1-6],[1-6],[1-6],[1-6];"
             + "[1-6],[1-6],[1-6],[1-6],[1-6],[1-6]";
 
-    private static final String START_REGEX_7 = "start [1-10],[1-10],[1-10],[1-10],[1-10],[1-10];"
-            + "[1-10],[1-10],[1-10],[1-10],[1-10],[1-10]";
+    private static final String START_REGEX_7 = "start ([\\d]+,){9}\\d+;([\\d]+,){9}\\d+";
 
     private static final String ROLL_REGEX_5 = "roll [1-6]";
 
