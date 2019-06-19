@@ -70,6 +70,8 @@ public class Course {
                 printCell(app, input);
             } else if (FormatChecker.isPrint(input)) {
                 app.getBoard().printBoard();
+            }else {
+                Terminal.printError("invalid command.");
             }
         }
         return true;
