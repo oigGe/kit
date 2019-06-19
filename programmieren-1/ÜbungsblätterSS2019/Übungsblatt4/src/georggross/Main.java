@@ -28,16 +28,16 @@ public class Main {
 
         String input = Terminal.readLine();
         rollPhase(input);
-        movePhase(input);
+//        movePhase(input);
 
     }
 
     private static boolean rollPhase(String input){
-        if (input)
+       return false;
     }
 
     private boolean correctInput(String input){
-        
+return true;
     }
 
     private static boolean isCorrectCommandlineArgument(String[] args) {

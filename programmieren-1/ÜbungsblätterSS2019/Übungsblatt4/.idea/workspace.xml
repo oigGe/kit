@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d32793-8c82-45c9-9739-98c84d0461c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/georggross/FormatChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Uebungsblatt4/A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Uebungsblatt4/A/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/untitled/.idea/checkstyle-idea.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/untitled/.idea/misc.xml" beforeDir="false" />
@@ -15,12 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/Übungsblatt3d.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/Übungsblatt3d.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Stone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/georggross/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/georggross/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,14 +76,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="585">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormatChecker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/georggross/FormatChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +123,7 @@
       <file leaf-file-name="Stone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="303">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -124,8 +141,12 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,15 +178,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TorusBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/georggross/TorusBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/App.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -193,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/georggross/Start.java" />
         <option value="$PROJECT_DIR$/src/georggross/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/georggross/Position.java" />
-        <option value="$PROJECT_DIR$/src/georggross/Test.java" />
         <option value="$PROJECT_DIR$/src/georggross/TorusStone.java" />
         <option value="$PROJECT_DIR$/src/georggross/StartingPositions.java" />
         <option value="$PROJECT_DIR$/src/georggross/TorusBoard.java" />
@@ -202,13 +213,16 @@
         <option value="$PROJECT_DIR$/src/georggross/App.java" />
         <option value="$PROJECT_DIR$/src/georggross/Player.java" />
         <option value="$PROJECT_DIR$/src/georggross/Main.java" />
+        <option value="$PROJECT_DIR$/src/georggross/Test.java" />
+        <option value="$PROJECT_DIR$/src/georggross/FormatChecker.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="24" />
+    <option name="width" value="1404" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.einstein">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="georggross.Main" />
       <module name="Übungsblatt4" />
@@ -296,8 +310,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -315,36 +329,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32859176" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" x="1280" y="23" width="1112" height="811" id="Run" order="2" type="FLOATING" weight="0.20108108" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" x="35" y="414" width="1112" height="386" id="Run" order="12" visible="true" weight="0.20056899" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0703125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25703126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35135135" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.35135135" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
+      <window_info anchor="bottom" id="CheckStyle" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
@@ -357,8 +371,10 @@
         <state relative-caret-position="255">
           <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
           <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,6 +407,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,34 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/TorusStone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,13 +500,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="585">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/FormatChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
           </folding>
         </state>
       </provider>
