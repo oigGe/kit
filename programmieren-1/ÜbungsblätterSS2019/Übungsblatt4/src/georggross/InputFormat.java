@@ -44,6 +44,17 @@ public class InputFormat {
         String[] coordinateParts = valuesParts[1].split(";");
         return toIntArray(coordinateParts);
     }
+
+    public static int adjustNumber(int number, App app) {
+        int mod = app.getSize();
+        int adjustedNumber = number;
+        if (number < 0) {
+            adjustedNumber = (mod + (number % mod)) % mod;
+        } else {
+            adjustedNumber %= mod;
+        }
+        return adjustedNumber;
+    }
 }
 
 

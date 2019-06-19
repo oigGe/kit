@@ -41,7 +41,7 @@ public class Board {
         stone.getPosition().setStone(stone);
     }
 
-    public Position getPosition(int xPos, int yPos) {
+    public Position getPosition(int xPos, int yPos, App app) {
         return board[xPos][yPos];
     }
 

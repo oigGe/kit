@@ -90,7 +90,11 @@ public class Course {
             String input = Terminal.readLine();
             if (FormatChecker.isRoll(app.getSize(), input)) {
                 roll = InputFormat.getRoll(input);
-                hasRolled = true;
+                if (FormatChecker.isCorrectRoll(app, roll)) {
+                    hasRolled = true;
+                } else {
+                    Terminal.printError("roll out of bounds.");
+                }
             } else if (FormatChecker.isQuit(input)) {
                 isRunning = false;
                 hasRolled = false;
@@ -102,7 +106,7 @@ public class Course {
             } else if (FormatChecker.isToken(input)) {
                 player.printToken();
             } else {
-                Terminal.printError("invalid command");
+                Terminal.printError("invalid command.");
             }
         }
         return roll;
@@ -124,7 +128,7 @@ public class Course {
                     }
                     isMoving = false;
                 } else {
-                    Terminal.printError("invalid move input.");
+                    Terminal.printError("invalid move.");
                 }
             } else if (FormatChecker.isPrint(input)) {
                 app.getBoard().printBoard();
@@ -148,9 +152,9 @@ public class Course {
     }
 
     private static boolean isGameOver(App app) {
-        if (app.getPlayerA().hasWon(app.getBoard()) || app.getPlayerB().hasLost()) {
+        if (app.getPlayerA().hasWon(app) || app.getPlayerB().hasLost()) {
             return true;
-        } else if (app.getPlayerB().hasWon(app.getBoard()) || app.getPlayerA().hasLost()) {
+        } else if (app.getPlayerB().hasWon(app) || app.getPlayerA().hasLost()) {
             return true;
         }
         return false;
@@ -162,9 +166,9 @@ public class Course {
     }
 
     private static void printWinner(App app) {
-        if (app.getPlayerA().hasWon(app.getBoard()) || app.getPlayerB().hasLost()) {
+        if (app.getPlayerA().hasWon(app) || app.getPlayerB().hasLost()) {
             Terminal.printLine("P1 wins");
-        } else if (app.getPlayerB().hasWon(app.getBoard()) || app.getPlayerA().hasLost()) {
+        } else if (app.getPlayerB().hasWon(app) || app.getPlayerA().hasLost()) {
             Terminal.printLine("P2 wins");
         }
     }

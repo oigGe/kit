@@ -97,7 +97,7 @@ public class Player {
             return false;
         }
         Stone thisStone = getStoneWithInt(stoneNumber);
-        return thisStone.move(app.getBoard(), xPos, yPos);
+        return thisStone.move(app, xPos, yPos);
     }
 
     private Stone getStoneWithInt(int stoneNumber) {
@@ -110,17 +110,19 @@ public class Player {
     }
 
 
-    public boolean hasWon(Board board) {
+    public boolean hasWon(App app) {
+        Board board = app.getBoard();
         if (id == PLAYERA) {
             for (int i = 0; i < stones.size(); i++) {
-                if (stones.get(i).getPosition().equals(board.getPosition(board.getSize() - 1, board.getSize() - 1))) {
+                if (stones.get(i).getPosition()
+                        .equals(board.getPosition(board.getSize() - 1, board.getSize() - 1, app))) {
                     this.hasWon = true;
                     return true;
                 }
             }
         } else if (id == PLAYERB) {
             for (int i = 0; i < stones.size(); i++) {
-                if (stones.get(i).getPosition().equals(board.getPosition(0, 0))) {
+                if (stones.get(i).getPosition().equals(board.getPosition(0, 0, app))) {
                     this.hasWon = true;
                     return true;
                 }

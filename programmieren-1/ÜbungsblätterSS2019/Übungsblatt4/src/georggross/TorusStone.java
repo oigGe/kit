@@ -8,27 +8,29 @@ public class TorusStone extends Stone {
     }
 
     @Override
-    public ArrayList<Position> moveOptions(Board board) {
+    public ArrayList<Position> moveOptions(App app) {
+        Board board = app.getBoard();
         ArrayList<Position> moveOptions = new ArrayList<>();
         int thisX = super.getPosition().getXPos();
         int thisY = super.getPosition().getYPos();
+        int mod = app.getBoard().getSize();
         if (super.getPlayer().getId() == 1) {
-            moveOptions.add(board.getPosition((thisX + 1) % 5, (thisY + 1) % 5));
-            moveOptions.add(board.getPosition(thisX, (thisY + 1) % 5));
-            moveOptions.add(board.getPosition((thisX + 1) % 5, thisY));
+            moveOptions.add(board.getPosition((thisX + 1) % mod, (thisY + 1) % mod, app));
+            moveOptions.add(board.getPosition(thisX, (thisY + 1) % mod, app));
+            moveOptions.add(board.getPosition((thisX + 1) % mod, thisY, app));
         } else if (super.getPlayer().getId() == 2) {
             if (thisX > 0 && thisY > 0) {
-                moveOptions.add(board.getPosition(thisX - 1, thisY - 1));
-                moveOptions.add(board.getPosition(thisX, thisY - 1));
-                moveOptions.add(board.getPosition(thisX - 1, thisY));
+                moveOptions.add(board.getPosition(thisX - 1, thisY - 1, app));
+                moveOptions.add(board.getPosition(thisX, thisY - 1, app));
+                moveOptions.add(board.getPosition(thisX - 1, thisY, app));
             } else if (thisX <= 0 && thisY > 0) {
-                moveOptions.add(board.getPosition(5 + ((thisX - 1) % 5), thisY - 1));
-                moveOptions.add(board.getPosition(thisX, thisY - 1));
-                moveOptions.add(board.getPosition(5 + ((thisX - 1) % 5), thisY));
+                moveOptions.add(board.getPosition(mod + ((thisX - 1) % mod), thisY - 1, app));
+                moveOptions.add(board.getPosition(thisX, thisY - 1, app));
+                moveOptions.add(board.getPosition(mod + ((thisX - 1) % mod), thisY, app));
             } else if (thisX > 0 && thisY <= 0) {
-                moveOptions.add(board.getPosition(thisX - 1, 5 + ((thisY) % 5)));
-                moveOptions.add(board.getPosition(thisX, 5 + ((thisY) % 5)));
-                moveOptions.add(board.getPosition(thisX - 1, thisY));
+                moveOptions.add(board.getPosition(thisX - 1, mod + ((thisY) % mod), app));
+                moveOptions.add(board.getPosition(thisX, mod + ((thisY) % mod), app));
+                moveOptions.add(board.getPosition(thisX - 1, thisY, app));
             }
         }
         return moveOptions;
@@ -36,18 +38,19 @@ public class TorusStone extends Stone {
     }
 
     @Override
-    public boolean isValidMove(Board board, int xPos, int yPos) {
-        int adjustedXPos = adjustNumber(xPos);
-        int adjustedYPos = adjustNumber(yPos);
-        return super.isValidMove(board, adjustedXPos, adjustedYPos);
+    public boolean isValidMove(App app, int xPos, int yPos) {
+        int adjustedXPos = InputFormat.adjustNumber(xPos, app);
+        int adjustedYPos = InputFormat.adjustNumber(yPos, app);
+        return super.isValidMove(app, adjustedXPos, adjustedYPos);
     }
 
     @Override
-    public boolean move(Board board, int xPos, int yPos) {
-        int adjustedXPos = adjustNumber(xPos);
-        int adjustedYPos = adjustNumber(yPos);
-        if (isValidMove(board, adjustedXPos, adjustedYPos)) {
-            Position newPosition = board.getPosition(adjustedXPos, adjustedYPos);
+    public boolean move(App app, int xPos, int yPos) {
+        Board board = app.getBoard();
+        int adjustedXPos = InputFormat.adjustNumber(xPos, app);
+        int adjustedYPos = InputFormat.adjustNumber(yPos, app);
+        if (isValidMove(app, adjustedXPos, adjustedYPos)) {
+            Position newPosition = board.getPosition(adjustedXPos, adjustedYPos, app);
             if (newPosition.getStone() != null) {
                 beat(newPosition);
             }
@@ -60,14 +63,5 @@ public class TorusStone extends Stone {
 
     }
 
-    private int adjustNumber(int number) {
-        int adjustedNumber = number;
-        if (number < 0) {
-            adjustedNumber = (5 + (number % 5)) % 5;
-        } else {
-            adjustedNumber %= 5;
-        }
-        return adjustedNumber;
-    }
 }
 

@@ -24,10 +24,6 @@ public class Stone {
         this.position.setStone(null);
     }
 
-    public boolean isDeleted() {
-        return isDeleted;
-    }
-
     public Position getPosition() {
         return position;
     }
@@ -41,7 +37,8 @@ public class Stone {
     }
 
 
-    public ArrayList<Position> moveOptions(Board board) {
+    public ArrayList<Position> moveOptions(App app) {
+        Board board = app.getBoard();
         ArrayList<Position> moveOptions = new ArrayList<>();
         int allowedSize = board.getSize() - 1;
         int modifier = 0;
@@ -62,33 +59,33 @@ public class Stone {
             criteria3 = thisX <= 0 && thisY > 0;
         }
         if (criteria1) {
-            Position opt1 = board.getPosition(thisX, thisY + modifier);
-            Position opt2 = board.getPosition(thisX + modifier, thisY);
-            Position opt3 = board.getPosition(thisX + modifier, thisY + modifier);
+            Position opt1 = board.getPosition(thisX, thisY + modifier, app);
+            Position opt2 = board.getPosition(thisX + modifier, thisY, app);
+            Position opt3 = board.getPosition(thisX + modifier, thisY + modifier, app);
             moveOptions.add(opt1);
             moveOptions.add(opt2);
             moveOptions.add(opt3);
         } else if (criteria2) {
-            Position opt1 = board.getPosition(thisX + modifier, thisY);
+            Position opt1 = board.getPosition(thisX + modifier, thisY, app);
             moveOptions.add(opt1);
         } else if (criteria3) {
-            Position opt1 = board.getPosition(thisX, thisY + modifier);
+            Position opt1 = board.getPosition(thisX, thisY + modifier, app);
             moveOptions.add(opt1);
         }
         return moveOptions;
     }
 
-    public boolean isValidMove(Board board, int xPos, int yPos) {
-        Position newPosition = board.getPosition(xPos, yPos);
-        if (moveOptions(board).contains(newPosition)) {
+    public boolean isValidMove(App app, int xPos, int yPos) {
+        Position newPosition = app.getBoard().getPosition(xPos, yPos, app);
+        if (moveOptions(app).contains(newPosition)) {
             return true;
         }
         return false;
     }
 
-    public boolean move(Board board, int xPos, int yPos) {
-        if (isValidMove(board, xPos, yPos)) {
-            Position newPosition = board.getPosition(xPos, yPos);
+    public boolean move(App app, int xPos, int yPos) {
+        if (isValidMove(app, xPos, yPos)) {
+            Position newPosition = app.getBoard().getPosition(xPos, yPos, app);
             if (newPosition.getStone() != null) {
                 beat(newPosition);
             }

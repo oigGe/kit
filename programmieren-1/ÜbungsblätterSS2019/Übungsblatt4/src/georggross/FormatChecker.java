@@ -14,7 +14,7 @@ public class FormatChecker {
     private static final String START_REGEX_7 = "start ([\\d]+,){9}\\d+;([\\d]+,){9}\\d+";
 
     private static final String ROLL_REGEX_5 = "roll [1-6]";
-//might need check
+    //might need check
     private static final String ROLL_REGEX_7 = "roll [\\d]+";
 
     private static final String QUIT_REGEX = "quit";
@@ -180,6 +180,13 @@ public class FormatChecker {
     public static int[] sortIntArray(int[] array) {
         Arrays.sort(array);
         return array;
+    }
+
+    public static boolean isCorrectRoll(App app, int roll) {
+        if (app.getSize() == 5) {
+            return (roll > 0 && roll <= 6);
+        }
+        return (roll > 0 && roll <= 10);
     }
 
 

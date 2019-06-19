@@ -7,18 +7,10 @@ public class TorusBoard extends Board {
     }
 
     @Override
-    public Position getPosition(int xPos, int yPos) {
-        xPos = adjustNumber(xPos);
-        yPos = adjustNumber(yPos);
-        return super.getPosition(xPos, yPos);
+    public Position getPosition(int xPos, int yPos, App app) {
+        int adjustedXPos = InputFormat.adjustNumber(xPos, app);
+        int adjustedYPos = InputFormat.adjustNumber(yPos, app);
+        return super.getPosition(adjustedXPos, adjustedYPos, app);
     }
 
-    private int adjustNumber(int number) {
-        if (number < 0) {
-            number = (5 + (number % 5)) % 5;
-        } else {
-            number %= 5;
-        }
-        return number;
-    }
 }
