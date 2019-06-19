@@ -14,11 +14,6 @@
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/Übungsblatt3d.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3d/Übungsblatt3d.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Übungsblätter/Übungsblatt3e/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross.zip" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/StartingPositions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übungsblatt4/georggross/StartingPositions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/georggross/FormatChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/FormatChecker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormatChecker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormatChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/FormatChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="256">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -125,7 +120,7 @@
       <file leaf-file-name="Stone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="-641">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#803#804#0" expanded="true" />
@@ -134,11 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/georggross/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+            <state relative-caret-position="185">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="method#hasLost#0;class#Player#0" />
+                <element signature="method#getRollOptions#0;class#Player#0" />
+                <element signature="method#isCorrectStoneToMove#0;class#Player#0" />
+                <element signature="method#moveStone#0;class#Player#0" />
+                <element signature="method#getStoneWithInt#0;class#Player#0" />
+                <element signature="method#hasWon#0;class#Player#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +158,7 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="-116">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#1112#1113#0" expanded="true" />
@@ -167,7 +170,7 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="229">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#1197#1198#0" expanded="true" />
@@ -345,17 +348,17 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" x="411" y="70" width="549" height="730" id="Run" order="12" type="FLOATING" weight="0.20056899" />
+      <window_info anchor="bottom" x="464" y="435" width="549" height="730" id="Run" order="12" type="FLOATING" weight="0.20056899" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.09765625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.23984376" />
       <window_info id="Structure" order="1" sideWeight="0.5016234" side_tool="true" weight="0.11729623" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.54623044" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.24466571" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info active="true" anchor="bottom" id="CheckStyle" order="6" visible="true" weight="0.42486486" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,18 +377,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/georggross/Player.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/georggross/Course.java</url>
           <line>12</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -431,6 +428,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="method#hasLost#0;class#Player#0" />
+            <element signature="method#getRollOptions#0;class#Player#0" />
+            <element signature="method#isCorrectStoneToMove#0;class#Player#0" />
+            <element signature="method#moveStone#0;class#Player#0" />
+            <element signature="method#getStoneWithInt#0;class#Player#0" />
+            <element signature="method#hasWon#0;class#Player#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,33 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#1112#1113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/StartingPositions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -540,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1197#1198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -557,10 +525,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#1197#1198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/FormatChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="256">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="method#hasLost#0;class#Player#0" />
+            <element signature="method#getRollOptions#0;class#Player#0" />
+            <element signature="method#isCorrectStoneToMove#0;class#Player#0" />
+            <element signature="method#moveStone#0;class#Player#0" />
+            <element signature="method#getStoneWithInt#0;class#Player#0" />
+            <element signature="method#hasWon#0;class#Player#0" />
+          </folding>
         </state>
       </provider>
     </entry>
