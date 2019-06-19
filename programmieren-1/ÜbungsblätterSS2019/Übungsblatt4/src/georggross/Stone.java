@@ -2,41 +2,83 @@ package georggross;
 
 import java.util.ArrayList;
 
+/**
+ * Represents a stone on the field.
+ *
+ * @author Georg Gross
+ * @version 1.0
+ */
 public class Stone {
     private int number;
     private Player player;
     private Position position;
     private boolean isDeleted = false;
 
+    /**
+     * Constructor
+     *
+     * @param number   - Stone value.
+     * @param player   - Stone owner.
+     * @param position - Position on the board.
+     */
     public Stone(int number, Player player, Position position) {
         this.number = number;
         this.player = player;
         this.position = position;
     }
 
+    /**
+     * Sets isDeleted value.
+     *
+     * @param deleted - Boolean value.
+     */
     public void setDeleted(boolean deleted) {
         isDeleted = deleted;
     }
 
+    /**
+     * Deletes a stone from the board and the players stone list.
+     */
     public void deleteStone() {
         this.setDeleted(true);
         this.position.getStone().getPlayer().removeStone(this);
         this.position.setStone(null);
     }
 
+    /**
+     * Gets stones position.
+     *
+     * @return - current position.
+     */
     public Position getPosition() {
         return position;
     }
 
+    /**
+     * Gets stones value.
+     *
+     * @return - Stones value.
+     */
     public int getNumber() {
         return number;
     }
 
+    /**
+     * Gets stones owner.
+     *
+     * @return - Player who owns stone.
+     */
     public Player getPlayer() {
         return player;
     }
 
 
+    /**
+     * Returns a list of possible positions a stone can move to.
+     *
+     * @param app - Programm state.
+     * @return - Array list of positions.
+     */
     public ArrayList<Position> moveOptions(App app) {
         Board board = app.getBoard();
         ArrayList<Position> moveOptions = new ArrayList<>();
@@ -75,6 +117,14 @@ public class Stone {
         return moveOptions;
     }
 
+    /**
+     * Determines if a move is valid.
+     *
+     * @param app  - Program state.
+     * @param xPos - X coordinate of destination.
+     * @param yPos - Y coordinate of destination.
+     * @return - True if move is valid.
+     */
     public boolean isValidMove(App app, int xPos, int yPos) {
         Position newPosition = app.getBoard().getPosition(xPos, yPos, app);
         if (moveOptions(app).contains(newPosition)) {
@@ -83,6 +133,14 @@ public class Stone {
         return false;
     }
 
+    /**
+     * Moves a stone to a designated position.
+     *
+     * @param app  - Program state.
+     * @param xPos - X coordinate of destination.
+     * @param yPos - Y coordinate of destionation.
+     * @return - True if move was successful
+     */
     public boolean move(App app, int xPos, int yPos) {
         if (isValidMove(app, xPos, yPos)) {
             Position newPosition = app.getBoard().getPosition(xPos, yPos, app);
@@ -97,10 +155,20 @@ public class Stone {
         return false;
     }
 
+    /**
+     * removes stone at certain position.
+     *
+     * @param position - The position of the stone to be removed.
+     */
     public void beat(Position position) {
         position.getStone().deleteStone();
     }
 
+    /**
+     * Sets stone to certain position
+     *
+     * @param position - position that stone should be set to.
+     */
     public void setPosition(Position position) {
         this.position = position;
     }

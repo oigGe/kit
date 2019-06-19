@@ -1,5 +1,12 @@
 package georggross;
 
+/**
+ * The Program status.
+ * Contains players and the board.
+ *
+ * @author Georg Gross
+ * @version 1.0
+ */
 public class App {
     private static final int FIVE = 5;
     private static final int SEVEN = 7;
@@ -11,6 +18,12 @@ public class App {
     private int dice;
 
 
+    /**
+     * Constructor
+     *
+     * @param size - Size of the board.
+     * @param isTorus - Boolean, true if torus mode. False if standard.
+     */
     public App(int size, boolean isTorus) {
         this.size = size;
         if (size == 5) {
@@ -29,6 +42,12 @@ public class App {
 
     }
 
+    /**
+
+     * Determines how many stones will be placed on the board and calls the necessary methods.
+     * @param playerAPositions
+     * @param playerBPositions
+     */
     public void start(int[] playerAPositions, int[] playerBPositions) {
 
         if (size == FIVE) {

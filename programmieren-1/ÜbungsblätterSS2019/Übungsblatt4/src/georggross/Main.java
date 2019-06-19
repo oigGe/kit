@@ -2,10 +2,20 @@ package georggross;
 
 import edu.kit.informatik.Terminal;
 
+/**
+ * Entry point for the programm. It contains tht main method and the command line interactions.
+ *
+ * @author Georg Gross
+ * @version 1.0
+ */
 public class Main {
 
     private static boolean isRunning = true;
 
+    /**
+     * Main method of the Programm. It parses command line commands.
+     * @param args - determines the size of the board and game mode
+     */
     public static void main(String[] args) {
 
         if (!FormatChecker.isCorrectCommandlineArgument(args)) {
@@ -29,6 +39,7 @@ public class Main {
         }
     }
 
+//   Determines if game mode is torus.
     private static boolean isTorus(String[] args) {
         if (args[0].equals("torus")) {
             return true;

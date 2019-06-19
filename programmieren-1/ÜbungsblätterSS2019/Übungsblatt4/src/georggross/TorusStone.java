@@ -2,11 +2,31 @@ package georggross;
 
 import java.util.ArrayList;
 
+/**
+ * Class that overrides function of the stone class in case of torus mode.
+ *
+ * @author Georg Gross
+ * @version 1.0
+ */
 public class TorusStone extends Stone {
+
+    /**
+     * Constructor
+     *
+     * @param number   - Stone value.
+     * @param player   - Stone owner.
+     * @param position - Position on the board.
+     */
     public TorusStone(int number, Player player, Position position) {
         super(number, player, position);
     }
 
+    /**
+     * Returns an array list of positions a stone can reach with the next move.
+     *
+     * @param app - The program state.
+     * @return - List of possible destinations.
+     */
     @Override
     public ArrayList<Position> moveOptions(App app) {
         Board board = app.getBoard();
@@ -37,6 +57,14 @@ public class TorusStone extends Stone {
 
     }
 
+    /**
+     * Checks if move is valid. Adjusts position for torus mode.
+     *
+     * @param app  - Program state.
+     * @param xPos - X value of destination.
+     * @param yPos - Y value of destination.
+     * @return - True if move is valid.
+     */
     @Override
     public boolean isValidMove(App app, int xPos, int yPos) {
         int adjustedXPos = InputFormat.adjustNumber(xPos, app);
