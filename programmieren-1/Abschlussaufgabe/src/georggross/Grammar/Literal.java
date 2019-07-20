@@ -1,6 +1,6 @@
-package georggross;
+package georggross.Grammar;
 
-public class Literal {
+public class Literal implements ITermPart {
    private Variable variable;
    private Complex complex;
 

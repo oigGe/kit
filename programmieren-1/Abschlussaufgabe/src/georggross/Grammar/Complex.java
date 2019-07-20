@@ -1,6 +1,7 @@
-package georggross;
+package georggross.Grammar;
 
 public class Complex {
+
     private int a;
     private int b;
 
