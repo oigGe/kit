@@ -22,8 +22,6 @@ public class Parser2 {
         nextChar();
         solution = parseExpression();
         if (position < expression.length()) {
-//            TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST
-            System.out.println("FUCK");
             setErrorMessage(ErrorCatalog.INVALID_EXPRESSION_MESSAGE);
             return null;
         }
@@ -103,16 +101,14 @@ public class Parser2 {
 //        Brackets
         if (crawl('[')) {
             if (thisChar == ' ') {
-//                TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESZ
-                System.out.println("HEEEEEEEY");
+
                 setErrorMessage(ErrorCatalog.INVALID_WHITESPACE_MESSAGE);
                 return null;
             }
             complex = parseExpression();
             crawl(']');
             if (expression.charAt(position - 2) == ' ') {
-//                TEEEEEEEEEEEEEEEEEEESDZ
-                System.out.println("hoopla");
+
                 setErrorMessage(ErrorCatalog.INVALID_WHITESPACE_MESSAGE);
                 return null;
             }

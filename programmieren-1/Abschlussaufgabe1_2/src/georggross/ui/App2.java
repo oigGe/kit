@@ -16,6 +16,7 @@ public class App2 {
 
         while (isRunning) {
             String output = processInput(getInput());
+            Terminal.printLine(output);
             if (output == null) {
                 break;
             }
@@ -35,8 +36,6 @@ public class App2 {
         } else if (InputChecker.isVariableCommand(input)) {
             return processVariableCommand(input);
         } else {
-//            TEEEEEEEEEEEEEEEST
-            System.out.println("SHITTI");
             return ErrorCatalog.INVALID_INPUT_MESSAGE;
         }
     }

@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768b8d69-677c-457d-b076-8e8ffc61fd8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Utilies/BracketDivider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Utilies/BracketDivider2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/calculations/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/calculations/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/calculations/Multipliction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/calculations/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/input/InputChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/input/RegexCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/saves/VariableCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/ui/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/ui/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/calculations/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/cataloges/ErrorCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/cataloges/JavaKeywordCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/cataloges/RegexCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/cataloges/VariableCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/input/InputChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/tests/MyStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/tests/TestStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/App2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/georggross/ui/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe/Abschlussaufgabe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe/Abschlussaufgabe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe/src/georggross/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt1/Aufgabe2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt1/Aufgabe2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt1/Aufgabe3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt1/Aufgabe3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt2/AufgabeB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt2/AufgabeB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ÜbungsblätterSS2019/Übungsblatt4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/georggross/ui/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/ui/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/georggross/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/georggross/ui/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +49,8 @@
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="675">
-                    <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+                  <state relative-caret-position="1530">
+                    <caret line="102" column="62" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
                   </state>
                 </provider>
               </entry>
@@ -114,30 +69,31 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="11" />
-          <entry key="java" value="124" />
+          <entry key="java" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="124" />
+          <entry key="JAVA" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="8930" />
+          <entry key="java" value="8953" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8930" />
+          <entry key="JAVA" value="8953" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -145,11 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/input/InputChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+              <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
                 <element signature="imports" />
               </folding>
@@ -158,10 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/georggross/ui/App.java">
+        <entry file="file://$PROJECT_DIR$/src/georggross/ui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -178,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -215,16 +171,16 @@
         <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+            <state relative-caret-position="660">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
               <folding>
                 <element signature="imports" />
                 <element signature="method#Parser2#0;class#Parser2#0" />
@@ -272,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/georggross/calculations/Addition.java" />
         <option value="$PROJECT_DIR$/src/georggross/calculations/Multiplication.java" />
         <option value="$PROJECT_DIR$/src/georggross/calculations/Subtraction.java" />
-        <option value="$PROJECT_DIR$/src/georggross/ui/Main.java" />
         <option value="$PROJECT_DIR$/src/georggross/ui/State.java" />
         <option value="$PROJECT_DIR$/src/georggross/cataloges/VariableCatalog.java" />
         <option value="$PROJECT_DIR$/src/georggross/calculations/Variable.java" />
@@ -288,12 +243,13 @@
         <option value="$PROJECT_DIR$/src/georggross/tests/TestStrings.java" />
         <option value="$PROJECT_DIR$/src/georggross/calculations/Parser.java" />
         <option value="$PROJECT_DIR$/src/georggross/pareser/Expression.java" />
-        <option value="$PROJECT_DIR$/src/georggross/ui/App2.java" />
         <option value="$PROJECT_DIR$/src/georggross/cataloges/ErrorCatalog.java" />
         <option value="$PROJECT_DIR$/src/georggross/ui/App.java" />
         <option value="$PROJECT_DIR$/src/georggross/ui/App2Test.java" />
-        <option value="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" />
         <option value="$PROJECT_DIR$/src/georggross/input/InputChecker.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/App2.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" />
       </list>
     </option>
   </component>
@@ -308,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,13 +308,26 @@
               <item name="Abschlussaufgabe1_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="pareser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -365,7 +335,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565496167484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565605774339" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -401,7 +371,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.App2Test">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="georggross.ui.Main" />
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="georggross.Test" />
       <module name="Abschlussaufgabe1_2" />
@@ -466,11 +449,13 @@
     <list>
       <item itemvalue="JUnit.ParserTest" />
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.App2Test" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -524,7 +509,7 @@
     <frame x="2627" y="25" width="2493" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1642828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16550879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,7 +518,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299611" />
-      <window_info active="true" anchor="bottom" x="5148" y="307" width="2427" height="1224" id="Run" order="2" type="FLOATING" visible="true" weight="0.47081712" />
+      <window_info anchor="bottom" x="5148" y="216" width="2417" height="1224" id="Run" order="2" type="FLOATING" visible="true" weight="0.47081712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32529184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,13 +597,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/georggross.java" />
-    <entry file="file://$PROJECT_DIR$/src/georggross/ui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/input/Command.java" />
     <entry file="file://$PROJECT_DIR$/src/georggross/input/StringChecker.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/kit/informatik/Terminal.java">
@@ -754,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/tests/MyStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/pareser/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -782,10 +753,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/input/InputChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/JavaKeywordCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Variable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -803,24 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Variable.java">
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/tests/TestStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -831,31 +812,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/tests/MyStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="62" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/tests/TestStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+        <state relative-caret-position="660">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="imports" />
             <element signature="method#Parser2#0;class#Parser2#0" />
@@ -864,16 +859,6 @@
             <element signature="method#isCorrectWhiteSPace#0;class#Parser2#0" />
             <element signature="method#hasErrorMessage#0;class#Parser2#0" />
             <element signature="method#getErrorMessage#0;class#Parser2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/georggross/input/InputChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-          <folding>
-            <element signature="imports" />
           </folding>
         </state>
       </provider>
