@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="768b8d69-677c-457d-b076-8e8ffc61fd8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Computable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Complex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Parser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Parser2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Subtraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/calculations/Variable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/ErrorCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/ErrorCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/JavaKeywordCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/JavaKeywordCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/RegexCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/RegexCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/VariableCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/cataloges/VariableCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/input/InputChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/input/InputChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/pareser/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/tests/TestStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/tests/TestStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/App2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/App2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/out/production/Abschlussaufgabe1_2/georggross/ui/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Complex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Parser2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/ParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/calculations/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/ErrorCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/ErrorCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/JavaKeywordCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/JavaKeywordCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/RegexCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/RegexCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/VariableCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/cataloges/VariableCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/input/InputChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/input/InputChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/pareser/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/tests/TestStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/tests/TestStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/App2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/App2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Abschlussaufgabe1_2/src/georggross/ui/State.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="689204331">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="11" />
+          <entry key="java" value="125" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="11" />
+          <entry key="JAVA" value="125" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="9029" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="9029" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-424169709">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="35" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Variable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/ui/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/VariableCatalog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/ui/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" />
+                <element signature="method#Parser2#0;class#Parser2#0" />
+                <element signature="method#parse#0;class#Parser2#0" />
+                <element signature="method#parseExpression#0;class#Parser2#0" />
+                <element signature="method#parseTerm#0;class#Parser2#0" />
+                <element signature="method#parseFactor#0;class#Parser2#0" />
+                <element signature="method#nextChar#0;class#Parser2#0" />
+                <element signature="method#crawl#0;class#Parser2#0" />
+                <element signature="method#isNextChar#0;class#Parser2#0" />
+                <element signature="method#isPrevChar#0;class#Parser2#0" />
+                <element signature="method#isCorrectWhiteSPace#0;class#Parser2#0" />
+                <element signature="method#hasErrorMessage#0;class#Parser2#0" />
+                <element signature="method#getErrorMessage#0;class#Parser2#0" />
+                <element signature="method#setErrorMessage#0;class#Parser2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/calculations/ParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/ui/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/ErrorCatalog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>georg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Addition.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Subtraction.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/State.java" />
+        <option value="$PROJECT_DIR$/src/georggross/cataloges/VariableCatalog.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Variable.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Complex.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Division.java" />
+        <option value="$PROJECT_DIR$/src/georggross/Test.java" />
+        <option value="$PROJECT_DIR$/src/georggross/cataloges/RegexCatalog.java" />
+        <option value="$PROJECT_DIR$/src/georggross/cataloges/JavaKeywordCatalog.java" />
+        <option value="$PROJECT_DIR$/src/georggross/tests/StringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/georggross/tests/MyStringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Parser.java" />
+        <option value="$PROJECT_DIR$/src/georggross/pareser/Expression.java" />
+        <option value="$PROJECT_DIR$/src/georggross/cataloges/ErrorCatalog.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/App.java" />
+        <option value="$PROJECT_DIR$/src/georggross/input/InputChecker.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/App2.java" />
+        <option value="$PROJECT_DIR$/src/georggross/calculations/Parser2.java" />
+        <option value="$PROJECT_DIR$/src/georggross/tests/TestStrings.java" />
+        <option value="$PROJECT_DIR$/src/georggross/ui/App2Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2560" />
+    <option name="y" value="-2" />
+    <option name="width" value="2560" />
+    <option name="height" value="1442" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="calculations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="cataloges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Abschlussaufgabe1_2 _backup_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Abschlussaufgabe1_2 _backup_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="georggross" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565628824673" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Abschlussaufgabe1_2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="georggross.ui" />
+      <recent name="georggross.calculations" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="georggross.input" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="georggross.ui" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.App2Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="georggross.ui.Main" />
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="georggross.Test" />
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2Test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="georggross.ui" />
+      <option name="MAIN_CLASS_NAME" value="georggross.ui.App2Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="georggross.ui" />
+      <option name="MAIN_CLASS_NAME" value="georggross.ui.AppTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Abschlussaufgabe1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="georggross.calculations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="georggross.calculations" />
+      <option name="MAIN_CLASS_NAME" value="georggross.calculations.ParserTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ParserTest" />
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.App2Test" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="768b8d69-677c-457d-b076-8e8ffc61fd8a" name="Default Changelist" comment="" />
+      <created>1565302175986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565302175986</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="App2Test - 2019.08.12 at 18h 45m 32s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 18h 46m 06s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 18h 46m 32s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 45m 51s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 47m 13s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 49m 45s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 50m 39s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 50m 56s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 57m 00s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App2Test - 2019.08.12 at 23h 57m 11s.xml">
+      <configuration name="App2Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2627" y="25" width="2493" height="1415" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16469146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299611" />
+      <window_info anchor="bottom" x="5148" y="216" width="2417" height="1224" id="Run" order="2" type="FLOATING" weight="0.47081712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32529184" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24357976" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3291829" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1642828" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299611" />
+      <window_info active="true" anchor="bottom" x="2627" y="83" width="2427" height="1224" id="Run" order="2" type="FLOATING" visible="true" weight="0.47081712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.019455252" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24357976" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3291829" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/georggross/Test.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/georggross/calculations/Parser.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/georggross/ui/App2Test.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.pos" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/georggross.java" />
+    <entry file="file://$PROJECT_DIR$/src/georggross/input/Command.java" />
+    <entry file="file://$PROJECT_DIR$/src/georggross/input/StringChecker.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/kit/informatik/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/RegexCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Subtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/Description.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/SynchronizedRunListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/pareser/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/input/InputChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/tests/MyStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/tests/TestStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/JavaKeywordCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Variable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/VariableCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" />
+            <element signature="method#Parser2#0;class#Parser2#0" />
+            <element signature="method#parse#0;class#Parser2#0" />
+            <element signature="method#parseExpression#0;class#Parser2#0" />
+            <element signature="method#parseTerm#0;class#Parser2#0" />
+            <element signature="method#parseFactor#0;class#Parser2#0" />
+            <element signature="method#nextChar#0;class#Parser2#0" />
+            <element signature="method#crawl#0;class#Parser2#0" />
+            <element signature="method#isNextChar#0;class#Parser2#0" />
+            <element signature="method#isPrevChar#0;class#Parser2#0" />
+            <element signature="method#isCorrectWhiteSPace#0;class#Parser2#0" />
+            <element signature="method#hasErrorMessage#0;class#Parser2#0" />
+            <element signature="method#getErrorMessage#0;class#Parser2#0" />
+            <element signature="method#setErrorMessage#0;class#Parser2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/ui/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/cataloges/ErrorCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/georggross/calculations/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Abschlussaufgabe1_2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
