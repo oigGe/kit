@@ -1,11 +1,11 @@
 package georggross.ui;
 
-import board.Board;
+import grid.Grid;
 
 public class Main {
     public static void main(String[] args) {
-        Board.getInstance().setBoardPositions();
-        Board.getInstance().initBoardPositions();
-        Board.getInstance().print();
+        Grid.getInstance().setBoardPositions();
+        Grid.getInstance().initBoardPositions();
+        Grid.getInstance().print();
     }
 }
