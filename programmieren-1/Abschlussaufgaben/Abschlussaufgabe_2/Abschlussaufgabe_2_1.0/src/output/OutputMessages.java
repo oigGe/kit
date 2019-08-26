@@ -1,7 +1,8 @@
 package output;
 
 public enum OutputMessages {
-    OK_MESSAGE("Ok");
+    OK_MESSAGE("Ok"),
+    WINNER_MESSAGE("WINNER");
 
 
     private String output;

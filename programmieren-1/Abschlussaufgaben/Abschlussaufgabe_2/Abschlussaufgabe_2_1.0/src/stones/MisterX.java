@@ -10,8 +10,8 @@ public class MisterX extends Stone {
     }
 
     @Override
-    public void setMoveOptions() {
-//        there is a bug here. THe stone first has to be removed to check if the neighbour stones have other
+    public void updateMoveOptions() {
+//        there is a bug here. The stone first has to be removed to check if the neighbour stones have other
         Position[] surroundingPositions = super.getPosition().getEdges();
         Position[] moveOptions = new Position[surroundingPositions.length];
         for (int i = 0; i < surroundingPositions.length; i++) {
@@ -29,5 +29,14 @@ public class MisterX extends Stone {
 
         }
         super.setMoveOptions(moveOptions);
+    }
+
+    public boolean isSurrounded() {
+        for (Position position : super.getPosition().getEdges()) {
+            if (!position.hasStone()) {
+                return false;
+            }
+        }
+        return true;
     }
 }

@@ -1,7 +1,9 @@
 package stones;
 
+import georggross.ui.State;
 import grid.Position;
 import output.ErrorMessage;
+import output.OutputMessages;
 import player.Player;
 
 import java.util.ArrayList;
@@ -35,13 +37,13 @@ public abstract class Stone implements movable {
         if (isSlideBlocked(destination)) {
             return ErrorMessage.SLIDE_IS_BLOCKED_ERROR.getErrorMessage();
         }
-        setMoveOptions();
+        updateMoveOptions();
         for (int i = 0; i < moveOptions.length; i++) {
             if (moveOptions[i].equals(destination)) {
                 this.position.removeStone(this);
                 this.position = destination;
                 this.position.addStone(this);
-                return null;
+                return OutputMessages.OK_MESSAGE.getOutput();
             }
         }
         return ErrorMessage.NOT_A_VALID_MOVE_OPTION_ERROR.getErrorMessage();
@@ -65,7 +67,7 @@ public abstract class Stone implements movable {
 
     }
 
-    private boolean isBlockedByAgent() {
+    public boolean isBlockedByAgent() {
         ArrayList<Stone> thisPile = position.getStones();
         if (thisPile.get(thisPile.size() - 1) == this) {
             return false;
@@ -80,7 +82,7 @@ public abstract class Stone implements movable {
 
 
     @Override
-    public void setMoveOptions() {
+    public void updateMoveOptions() {
     }
 
     public Position getPosition() {
@@ -100,7 +102,16 @@ public abstract class Stone implements movable {
         }
 
         this.position = position;
-        return null;
+        return OutputMessages.OK_MESSAGE.getOutput();
+    }
+
+    public String playAsFirstStone() {
+        this.position = State.getInstance().getGrid().getPosition(0, 0);
+        if (this.position != null) {
+            this.position.addStone(this);
+            return OutputMessages.OK_MESSAGE.getOutput();
+        }
+        return ErrorMessage.NOT_A_VALID_MOVE_OPTION_ERROR.getErrorMessage();
     }
 
     //    check if connection is broken by moving the stone.
@@ -132,8 +143,10 @@ public abstract class Stone implements movable {
 //        this.edegs = edegs;
 //    }
 
-    public void setPosition(Position position) {
-        this.position = position;
+    public void setPosition(Position newPosition) {
+        this.position.removeStone(this);
+        this.position = newPosition;
+        this.position.addStone(this);
     }
 
     public void setPlayer(Player player) {
@@ -142,5 +155,20 @@ public abstract class Stone implements movable {
 
     public void setMoveOptions(Position[] moveOptions) {
         this.moveOptions = moveOptions;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder output = new StringBuilder();
+        output.append(name);
+        for (int i = 0; i < position.getEdges().length; i++) {
+            if (position.getEdge(i).hasStone()) {
+                output.append(" ");
+                output.append(i + 1);
+                output.append(" ");
+                output.append(position.getEdge(i).getHighestStone().getName());
+            }
+        }
+        return output.toString();
     }
 }

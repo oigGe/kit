@@ -5,7 +5,7 @@ import grid.Position;
 public interface movable {
 
 
-    void setMoveOptions();
+    void updateMoveOptions();
 
     Position[] getMoveOptions();
 

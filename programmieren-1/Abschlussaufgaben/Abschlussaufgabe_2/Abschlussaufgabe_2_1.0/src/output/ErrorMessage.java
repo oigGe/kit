@@ -8,7 +8,13 @@ public enum ErrorMessage {
     NOT_A_VALID_MOVE_OPTION_ERROR("Error, not a valid move option."),
     CONNECTION_BREAK_ERROR("Error, move would break connection."),
     IS_BLOCKED_BY_AGENT_ERROR("Error, stone is blocked by agent."),
-    SLIDE_IS_BLOCKED_ERROR("Error, stone can not slide to this position.");
+    SLIDE_IS_BLOCKED_ERROR("Error, stone can not slide to this position."),
+    HAS_VISITED_BEFORE_ERROR("Error, position was visited before."),
+    NOT_IN_TOUCH_ERROR("Error, position is not in touch with previous stone."),
+    INVALID_STONE_ERROR("Error, invalid stone input."),
+    INVALID_POSITION_ERROR("Error, invalid position input."),
+    HAS_TO_PLAY_MR_X_ERROR("Error, MR X needs to be played."),
+    INVALID_AMOUNT_OF_POSITIONS_ERROR("Error, invalid amount of positions.");
 
 
     private String errorMessage;

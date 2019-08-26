@@ -28,7 +28,7 @@ public class ConectionChecker {
     public boolean canBeMoved() {
 //        remove movingStone position if movingStone is the only stone in this position.
         if (movingStone.getPosition().getStones().size() < 2) {
-//            There might be a bug here as position is removed. But this should be created new everytime its called anyways.
+//            There might be a bug here as position is removed. But this should be created new every time its called anyways.
             occupiedPositions.remove(movingStone.getPosition());
             occupiedPositionsCount--;
         }
